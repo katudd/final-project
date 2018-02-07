@@ -1,0 +1,17 @@
+.Login {
+  width: 100vw;
+  min-height: 100vh;
+  padding: 0 20%;
+  background-color: #777;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.admin-login-container {
+  padding: 2em;
+  background-color: #d2d2d2;
+  margin: 3% 0;
+  box-shadow: 5px 5px;
+}

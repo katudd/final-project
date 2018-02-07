@@ -1,0 +1,13 @@
+.longstory-container {
+  width: 100%;
+  padding: 5% 20%;
+}
+
+#longstory-image {
+  width: 100%;
+  height: auto;
+}
+
+.caption, .heading, .longtext  {
+  margin-top: 20px;
+}

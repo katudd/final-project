@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, p {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2.5em;
+  line-height: 2.8em;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.9em;
+  line-height: 2.6em;
+  margin: 0;
+}
+
+h3 {
+  font-size: 1.5em;
+  line-height: 1.9em;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.app-wrapper {
+  padding: 5% 15%;
+}
+
+label {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1em;
+}
+
+input, textarea{
+  width: 100%;
+  padding: 1em;
+  margin: 0.7em 0 1.5em 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  border: none;
+}
+
+textarea {
+  height: 30vh;
+  resize: vertical;
+}
+
+button {
+  height: 55px;
+  min-width: 55px;
+  margin-top: 15px;
+  padding: 1em;
+  background-color: #2d6c33;
+  border: 3px solid #2d6c33;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 1.1em;
+  line-height: 1em;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+button:hover {
+  border: 3px solid #2d6c33;
+  background-color: #fff;
+  color: #2d6c33;
+}
+
+button:active {
+  /* border: 3px solid #2d6c33;
+  background-color: #fff;
+  color: #2d6c33; */
+  transform: translateY(4px);
+}
+
+
+.white-text {
+  color: #fff;
+}
+
+@media (max-width: 620px){
+}
+
+@media (min-width:621px) and (max-width:800px){
+  }
+
+@media (min-width: 801px){
+  }
